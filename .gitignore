@@ -1,0 +1,20 @@
+# 创建 .gitignore 文件
+echo "# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+
+# Git
+.git/
+
+# 其他
+.DS_Store
+*.log" > .gitignore
